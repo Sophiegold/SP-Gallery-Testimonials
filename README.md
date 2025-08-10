@@ -20,7 +20,7 @@ Set initial columns in a following format:
 
 Solution|Author(s)
 --------|---------
-[testimonials.json]([https://github.com/Sophiegold/List_formatting_SP/blob/main/clickable_tiles.json])| [Sophie Goldstein]([https://github.com/tecchan1107](https://github.com/Sophiegold))
+[testimonials.json]([https://github.com/Sophiegold/SP-Gallery-Testimonials/blob/main/testimonials.json])| [Sophie Goldstein]([https://github.com/tecchan1107](https://github.com/Sophiegold))
 
 ## Version history
 

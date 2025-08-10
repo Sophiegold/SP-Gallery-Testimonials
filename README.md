@@ -2,8 +2,6 @@
 ## Summary
 This is a SharePoint Gallery design with testimonials.
 
-<img src="./asset/screenshot.jpg" width="750"/>
-
 ## View requirements
 
 |Type               |Internal Name|Required|
@@ -15,14 +13,14 @@ This is a SharePoint Gallery design with testimonials.
 
 *Notes: 
 Set initial columns in a following format:
-<img src="./assets/initial.jpg" width="750"/>
+<img src="./assets/initial.jpg" width="700"/>
 
 ## Sample
-<img src="./assets/testm.jpg" width="750"/>
+<img src="./assets/testm.jpg" width="700"/>
 
 Solution|Author(s)
 --------|---------
-[clickable_tiles.json]([https://github.com/Sophiegold/List_formatting_SP/blob/main/clickable_tiles.json])| [Sophie Goldstein]([https://github.com/tecchan1107](https://github.com/Sophiegold))
+[testimonials.json]([https://github.com/Sophiegold/List_formatting_SP/blob/main/clickable_tiles.json])| [Sophie Goldstein]([https://github.com/tecchan1107](https://github.com/Sophiegold))
 
 ## Version history
 

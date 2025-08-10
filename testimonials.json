@@ -1,0 +1,94 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/view-formatting.schema.json",
+  "hideSelection": true,
+  "fillHorizontally": true,
+  "height": 280,
+  "width": 450,
+  "formatter": {
+    "elmType": "div",
+    "style": {
+      "display": "flex",
+      "alignItems": "flex-start",
+      "gap": "16px",
+      "padding": "20px",
+      "border-radius": "12px",
+      "background-color": "#ffffff",
+      "box-shadow": "0 4px 12px rgba(0,0,0,0.06)",
+      "margin": "10px"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "attributes": {
+          "class": "sp-card-imageContainer"
+        },
+        "children": [
+          {
+            "elmType": "img",
+            "style": {
+              "width": "160px",
+              "height": "160px",
+              "border-radius": "50%",
+              "object-fit": "cover",
+              "display": "=if([$PhotoUrl] == '', 'none', 'block')"
+            },
+            "attributes": {
+              "src": "[$PhotoUrl]",
+              "title": "[$Title]",
+              "alt": "=if([$Title] == '', 'Profile photo', [$Title])"
+            }
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "display": "block",
+          "flexDirection": "column"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "txtContent": "=if([$Title] == '', 'Untitled', [$Title])",
+            "style": {
+              "font-weight": "600",
+              "font-size": "17px",
+              "margin-bottom": "6px"
+            }
+          },
+          {
+            "elmType": "div",
+            "txtContent": "='\"' + [$Testimonial] + '\"'",
+            "style": {
+              "font-style": "italic",
+              "font-size": "14.5px",
+              "color": "#444",
+              "line-height": "1.4"
+            }
+          },
+          {
+            "elmType": "a",
+            "attributes": {
+              "href": "= 'mailto:' + [$Email]",
+              "target": "_blank",
+              "title": "Send email"
+            },
+            "children": [
+              {
+                "elmType": "span",
+                "attributes": {
+                  "iconName": "Mail"
+                },
+                "style": {
+                  "font-size": "18px",
+                  "color": "#0078d4",
+                  "margin": "5px 0px"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

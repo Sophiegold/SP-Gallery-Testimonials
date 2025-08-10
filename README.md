@@ -15,10 +15,10 @@ This is a SharePoint Gallery design with testimonials.
 
 *Notes: 
 Set initial columns in a following format:
-<img src="./asset/screenshot.jpg" width="750"/>
+<img src="./assets/initial.jpg" width="750"/>
 
 ## Sample
-<img src="./asset/screenshot1.jpg" width="750"/>
+<img src="./assets/testm.jpg" width="750"/>
 
 Solution|Author(s)
 --------|---------
